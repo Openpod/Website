@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0; 
+  font-family: 'GlacialIndifference'; 
+}
+
+@font-face {
+  font-family: "GlacialIndifference";
+  src: url(./fonts/GlacialIndifference-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "GlacialIndifference";
+  src: url(./fonts/GlacialIndifference-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
