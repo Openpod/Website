@@ -48,7 +48,8 @@ const Navbar = ({toggle}) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to = 'waitlistpage'> Join Waitlist</NavBtnLink>
+            <a></a>
+            <NavBtnLink href='https://app.openpod.io'> Join Waitlist</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
