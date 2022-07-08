@@ -17,7 +17,7 @@ const Sidebar = ({isOpen, toggle}) => {
                         Launch
                     </SidebarLink>
                     <SidebarLink to = "waitlist" onClick={toggle}>
-                        Waitlist
+                        Build
                     </SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>

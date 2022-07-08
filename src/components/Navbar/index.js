@@ -44,7 +44,7 @@ const Navbar = ({toggle}) => {
               <NavLinks to="launch" smooth={true} duration={500} spy={true} exact = 'true' offset={-80} >Launch </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="waitlist" smooth={true} duration={500} spy={true} exact = 'true' offset={-80} >Waitlist </NavLinks>
+              <NavLinks to="waitlist" smooth={true} duration={500} spy={true} exact = 'true' offset={-80} >Build </NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>

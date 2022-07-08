@@ -1,8 +1,8 @@
 import React from 'react'
 import { Column2, ImgWrap, InfoContainer, Img, InfoWrapper, TopLine, Heading, Subtitle, BtnWrap, Column1, InfoRow, TextWrapper} from './InfoElements'
-import { ButtonR } from '../ButtonElements'
+import { StyledA } from '../ButtonElements'
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, img, alt, dark, dark2, primary, location}) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, img, alt, dark, dark2, primary}) => {
   return (
     <>
         <InfoContainer lightBg = {lightBg} id = {id} >
@@ -11,19 +11,21 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
                     <Column1>
                         <TextWrapper>
                             <TopLine> {topLine} </TopLine>
-                            <Heading lightText = {lightText}>  {headLine} </Heading>
-                            <Subtitle darkText = {darkText}> {description} </Subtitle>
+                            <Heading lightText = {lightText}> Create your DAO  </Heading>
+                            <Subtitle darkText = {darkText}> We've launched! Make your project's DAO and create a Token through our platform! </Subtitle>
                             <BtnWrap>
-                                <ButtonR to = {location}
-                                smooth = {true}
-                                duration = {500}
-                                spy={true}
-                                exact = "true"
-                                offset= {-80}
-                                primary={ primary ? 1 : 0}j
-                                dark={dark ? 1 : 0}
-                                dark2={dark2 ? 1 : 0}
-                                >{buttonLabel}</ButtonR>
+                                <StyledA
+                                    href = "http://app.openpod.io"
+                                    smooth = {true}
+                                    duration = {500}
+                                    spy={true}
+                                    exact = "true"
+                                    offset= {-80}
+                                    primary={ primary ? 1 : 0}j
+                                    dark={dark ? 1 : 0}
+                                    dark2={dark2 ? 1 : 0}
+                                    > Get Started
+                            </StyledA>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
