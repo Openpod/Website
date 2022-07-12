@@ -28,25 +28,19 @@ const Footer = () => {
                             Openpod
                         </SocialLogo>
                         <WebsiteRights>Openpod © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
-                        <SocialIconLink href="https://linkedin.com/company/openpod" target= "_blank" area-label="LinkedIn">
+                        {/* <SocialIconLink href="https://linkedin.com/company/openpod" target= "_blank" area-label="LinkedIn">
                                 <FaLinkedin />
                         </SocialIconLink>
-                        <SocialIcons>
-                            {/* <SocialIconLink href="https://linkedin.com/company/openpod" target= "_blank" area-label="LinkedIn">
-                                <FaLinkedin />
-                            </SocialIconLink> */}
-                            {/* <SocialIconLink href="/" target= "_blank" area-label="Twitter">
+                        <SocialIconLink href="https://twitter.com/OpenpodInc" target= "_blank" area-label="Twitter">
                                 <FaTwitter />
+                        </SocialIconLink> */}
+                        <SocialIcons>
+                            <SocialIconLink href="https://linkedin.com/company/openpod" target= "_blank" area-label="LinkedIn">
+                                    <FaLinkedin />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target= "_blank" area-label="Facebook">
-                                <FaFacebook />
+                            <SocialIconLink href="https://twitter.com/OpenpodInc" target= "_blank" area-label="Twitter">
+                                    <FaTwitter />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target= "_blank" area-label="Instagram">
-                                <FaInstagram />
-                            </SocialIconLink>
-                            <SocialIconLink href="/" target= "_blank" area-label="Youtube">
-                                <FaYoutube />
-                            </SocialIconLink> */}
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>

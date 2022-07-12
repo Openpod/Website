@@ -11,8 +11,8 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
                     <Column1>
                         <TextWrapper>
                             <TopLine> {topLine} </TopLine>
-                            <Heading lightText = {lightText}> Create your DAO  </Heading>
-                            <Subtitle darkText = {darkText}> We've launched! Make your project's DAO and create a Token through our platform! </Subtitle>
+                            <Heading lightText = {lightText}> Create your token  </Heading>
+                            <Subtitle darkText = {darkText}> We've launched! Make your project's token and get your users investing today! </Subtitle>
                             <BtnWrap>
                                 <StyledA
                                     href = "http://app.openpod.io"
