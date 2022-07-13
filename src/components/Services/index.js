@@ -16,7 +16,7 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src = {token}/>
                     <ServicesH2> Token Minting </ServicesH2>
-                    <ServicesP> Raise funds through establishing your own Governance Token for investors, speculators, and users to buy. </ServicesP>
+                    <ServicesP> Raise funds through establishing your own Governance Token for users, developers and investors to buy. </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src = {token_to_dev}/>
